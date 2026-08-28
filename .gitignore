@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# SSH
+*.pem
+id_rsa
+id_rsa.pub
+
+# Ansible
+ansible/group_vars/all/vault.yml
+ansible/group_vars/all/vault-password.txt
+ansible/inventory/hosts.yml
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
